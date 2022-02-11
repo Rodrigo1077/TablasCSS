@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Hanalei', cursive;
+    text-align: center;
+    font-size: 3em;
+}
+
+table.primera {
+    margin: auto;
+    width: 700px;
+    text-align: center;
+}
+
+table.segunda {
+    margin: auto;
+    width: 900px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+tr.topred {
+    border-left: dotted red 4px;
+    border-top: dotted red 4px;
+    border-right: dotted red 4px;
+}
+tr.sidered {
+    border-left: dotted red 4px;
+    border-right: dotted red 4px;
+}
+
+tr.bottomred {
+    border-left: dotted red 4px;
+    border-right: dotted red 4px;
+    border-bottom: dotted red 4px;
+}
+caption.amarillo {
+    background-color: rgb(255, 208, 0);
+    color: blue;
+    font-weight: bold;
+    height: 20px;
+}
+
+caption.amarillo2 {
+    background-color: rgb(255, 208, 0);
+    color: blue;
+    font-weight: bold;
+    height: 20px;
+    caption-side: bottom;
+}
+
+hr.gordo {
+    border: solid black 1px;
+    padding-top: 30px;  
+}
+
+hr.acortado {
+    width: 75%;
+    margin-top: 40px;
+}
+
+p.footer {
+    background-color: rgb(255, 208, 0);
+    text-align: center;
+    border: solid red 3px;
+    color: blue;
+    font-weight: bold;
+    padding: 20px;
+}
